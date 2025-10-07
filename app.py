@@ -2,7 +2,7 @@
 
 import streamlit as st
 import pandas as pd
-import joblib
+import pickle
 
 # --- KONFIGURASI HALAMAN ---
 st.set_page_config(
@@ -12,12 +12,12 @@ st.set_page_config(
 )
 
 # --- FUNGSI & PEMUATAN MODEL ---
-# Muat model yang sudah dilatih
-# Pastikan file ini ada setelah Anda menjalankan 'train.py'
+MODEL_PATH = 'best_airline_satisfaction_model.pkl'
 try:
-    model = joblib.load('best_airline_satisfaction_model.joblib')
+    with open(MODEL_PATH, 'rb') as file:
+        model = pickle.load(file)
 except FileNotFoundError:
-    st.error("Model 'best_airline_satisfaction_model.joblib' tidak ditemukan. Jalankan skrip training terlebih dahulu.")
+    st.error(f"Model '{MODEL_PATH}' tidak ditemukan. Jalankan skrip training untuk membuatnya.")
     st.stop()
 
 # Fungsi untuk melakukan prediksi
