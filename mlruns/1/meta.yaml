@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/1
+creation_time: 1759822084224
+experiment_id: '1'
+last_update_time: 1759822084224
+lifecycle_stage: active
+name: Airline Passenger Satisfaction
