@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/989256094349529342/318cb17b75004fa2b290ffbd9d3409f9/artifacts
+end_time: 1759855909788
+entry_point_name: ''
+experiment_id: '989256094349529342'
+lifecycle_stage: active
+run_id: 318cb17b75004fa2b290ffbd9d3409f9
+run_name: Pre-processing
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759855909693
+status: 3
+tags: []
+user_id: piik

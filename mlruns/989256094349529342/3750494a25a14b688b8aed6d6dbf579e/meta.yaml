@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/989256094349529342/3750494a25a14b688b8aed6d6dbf579e/artifacts
+end_time: 1759855909680
+entry_point_name: ''
+experiment_id: '989256094349529342'
+lifecycle_stage: active
+run_id: 3750494a25a14b688b8aed6d6dbf579e
+run_name: EDA
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759855909477
+status: 3
+tags: []
+user_id: piik
