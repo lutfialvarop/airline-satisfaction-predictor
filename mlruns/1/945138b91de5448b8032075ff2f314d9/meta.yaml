@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/1/945138b91de5448b8032075ff2f314d9/artifacts
+end_time: 1759843325366
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 945138b91de5448b8032075ff2f314d9
+run_name: Modeling & Hyperparameter Tuning
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759843272796
+status: 3
+tags: []
+user_id: piik
