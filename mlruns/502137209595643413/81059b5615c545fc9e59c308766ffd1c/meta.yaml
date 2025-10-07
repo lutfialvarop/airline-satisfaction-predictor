@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/502137209595643413/81059b5615c545fc9e59c308766ffd1c/artifacts
+end_time: 1759854040702
+entry_point_name: ''
+experiment_id: '502137209595643413'
+lifecycle_stage: active
+run_id: 81059b5615c545fc9e59c308766ffd1c
+run_name: Data Split
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759854040658
+status: 3
+tags: []
+user_id: piik
