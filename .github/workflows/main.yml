@@ -2,16 +2,13 @@
 name: Build and Push Multi-Service App to Docker Hub
 
 on:
-  pull_request:
-    types: [closed]
+  push:
     branches:
       - main
   workflow_dispatch:
 
 jobs:
   build-and-push:
-    if: github.event.pull_request.merged == true
-  
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -30,5 +27,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+          push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/airline-satisfaction-app:latest
