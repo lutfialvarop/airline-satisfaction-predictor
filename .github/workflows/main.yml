@@ -34,6 +34,6 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/airline-satisfaction-app:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/airline-satisfaction-app:${{ github.run_number }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/airline-satisfaction-app:${{ github.sha }
+            ${{ secrets.DOCKERHUB_USERNAME }}/airline-satisfaction-app:${{ github.sha }}
           cache-from: type=gha,scope=${{ github.workflow }}
           cache-to: type=gha,scope=${{ github.workflow }},mode=max
