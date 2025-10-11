@@ -1,0 +1,79 @@
+        Unnamed: 0      id  Gender      Customer Type  Age   Type of Travel  \
+0                0   70172    Male     Loyal Customer   13  Personal Travel   
+1                1    5047    Male  disloyal Customer   25  Business travel   
+2                2  110028  Female     Loyal Customer   26  Business travel   
+3                3   24026  Female     Loyal Customer   25  Business travel   
+4                4  119299    Male     Loyal Customer   61  Business travel   
+...            ...     ...     ...                ...  ...              ...   
+103899      103899   94171  Female  disloyal Customer   23  Business travel   
+103900      103900   73097    Male     Loyal Customer   49  Business travel   
+103901      103901   68825    Male  disloyal Customer   30  Business travel   
+103902      103902   54173  Female  disloyal Customer   22  Business travel   
+103903      103903   62567    Male     Loyal Customer   27  Business travel   
+
+           Class  Flight Distance  Inflight wifi service  \
+0       Eco Plus              460                      3   
+1       Business              235                      3   
+2       Business             1142                      2   
+3       Business              562                      2   
+4       Business              214                      3   
+...          ...              ...                    ...   
+103899       Eco              192                      2   
+103900  Business             2347                      4   
+103901  Business             1995                      1   
+103902       Eco             1000                      1   
+103903  Business             1723                      1   
+
+        Departure/Arrival time convenient  ...  Inflight entertainment  \
+0                                       4  ...                       5   
+1                                       2  ...                       1   
+2                                       2  ...                       5   
+3                                       5  ...                       2   
+4                                       3  ...                       3   
+...                                   ...  ...                     ...   
+103899                                  1  ...                       2   
+103900                                  4  ...                       5   
+103901                                  1  ...                       4   
+103902                                  1  ...                       1   
+103903                                  3  ...                       1   
+
+        On-board service  Leg room service  Baggage handling  Checkin service  \
+0                      4                 3                 4                4   
+1                      1                 5                 3                1   
+2                      4                 3                 4                4   
+3                      2                 5                 3                1   
+4                      3                 4                 4                3   
+...                  ...               ...               ...              ...   
+103899                 3                 1                 4                2   
+103900                 5                 5                 5                5   
+103901                 3                 2                 4                5   
+103902                 4                 5                 1                5   
+103903                 1                 1                 4                4   
+
+        Inflight service  Cleanliness  Departure Delay in Minutes  \
+0                      5            5                          25   
+1                      4            1                           1   
+2                      4            5                           0   
+3                      4            2                          11   
+4                      3            3                           0   
+...                  ...          ...                         ...   
+103899                 3            2                           3   
+103900                 5            4                           0   
+103901                 5            4                           7   
+103902                 4            1                           0   
+103903                 3            1                           0   
+
+        Arrival Delay in Minutes             satisfaction  
+0                           18.0  neutral or dissatisfied  
+1                            6.0  neutral or dissatisfied  
+2                            0.0                satisfied  
+3                            9.0  neutral or dissatisfied  
+4                            0.0                satisfied  
+...                          ...                      ...  
+103899                       0.0  neutral or dissatisfied  
+103900                       0.0                satisfied  
+103901                      14.0  neutral or dissatisfied  
+103902                       0.0  neutral or dissatisfied  
+103903                       0.0  neutral or dissatisfied  
+
+[103904 rows x 25 columns]
